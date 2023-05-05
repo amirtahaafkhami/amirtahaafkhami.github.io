@@ -1,5 +1,22 @@
-@media only screen and (max-width: 750px) {
-  .hamburger-menu {
+@media only screen and (max-width: 800px) {
+  .responsive-hamburger-menu-unactive {
     display: none !important;
+  }
+  .close {
+    display: flex !important;
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 740px){
+  nav ul li a {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  nav ul li {
+    font-size: 1vw;
+    padding: 10px 5px;
   }
 }
