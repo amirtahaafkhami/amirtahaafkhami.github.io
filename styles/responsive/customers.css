@@ -1,0 +1,11 @@
+@media only screen and (max-width: 650px) {
+  .slider {
+    width: 100% !important;
+  }
+  .testimonials {
+    width: 100% !important;
+  }
+  body {
+    background-color: black;
+  }
+}

@@ -15,6 +15,12 @@
     width: 100% !important;
   }
   * {
-    font-size: 3vw;
+    font-size: 2vw;
+  }
+  main {
+    width: 100% !important;
+  }
+  header {
+    width: 500px;
   }
 }

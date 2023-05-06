@@ -15,7 +15,7 @@ body {
 }
 
 main header {
-  width: 100%;
+  width: 100% !important;
   height: 10vh;
   background: #fff;
   display: flex;
