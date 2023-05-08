@@ -12,10 +12,30 @@
     display: none !important;
   }
   .responsive-text {
-    height: 100vh;
+    height: calc(100vh - 350px);
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex !important;
+  }
+  .btn {
+    outline: none;
+    color: #fff;
+    background: #1179e7;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: x-large;
+    position: relative;
+    /* top: 30px; */
+    right: calc((100% - 250px) / 2);
+    position: relative;
+    display: block !important;
+    width: 250px;
+    text-align: center;
   }
 }
