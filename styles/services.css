@@ -140,11 +140,6 @@ h1 {
   border: 0px;
 }
 
-@media screen and (max-width: 768px) {
-  .mobile-text {
-    display: block;
-  }
-  .text {
-    display: none;
-  }
+.responsive-text {
+  display: none;
 }

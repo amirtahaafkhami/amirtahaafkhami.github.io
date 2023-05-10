@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+  .mobile-text {
+    display: block;
+  }
+  .text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  section {
+    display: none !important;
+  }
+  .responsive-text {
+    display: block;
+  }
+}
